@@ -345,7 +345,7 @@ class ClipPropertiesTest(BaseTestUndoTimeline, BaseTestTimeline):
 
     def test_create_title(self):
         """Exercise creating a title clip."""
-        # Wait until the project creates a layer in the timeline.
+        # Wait until the project creates a layer in the timeline
         common.create_main_loop().run(until_empty=True)
 
         from pitivi.timeline.timeline import TimelineContainer
